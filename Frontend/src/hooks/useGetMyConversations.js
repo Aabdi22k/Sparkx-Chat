@@ -16,7 +16,7 @@ const useGetMyConversations = () => {
       setLoading(true);
       try {
         const res = await fetch(
-          "https://sparkx-backend-5gg2.onrender.com/api/users/conversations",
+          "https://sparkx-chat.onrender.com/api/users/conversations",
           {
             method: "GET",
             headers: {

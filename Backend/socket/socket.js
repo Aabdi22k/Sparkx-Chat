@@ -17,7 +17,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
     origin: [
-      "https://sparkx-frontend.onrender.com",
+      "https://sparkx-chat.onrender.com",
       "http://localhost:8081",
       "http://localhost:3000",
       "https://sparkx-frontend.vercel.app",
